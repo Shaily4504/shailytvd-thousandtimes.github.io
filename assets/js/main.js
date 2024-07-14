@@ -11,6 +11,65 @@
   /**
    * Easy selector helper function
    */
+  document.getElementById('downloadBtn').addEventListener('click', function() {
+    // Create an anchor element
+    var a = document.createElement('a');
+    
+    // Set the href attribute to the PDF file path
+    a.href = 'https://postimg.cc/qzQXMPfk';
+    
+    // Set the download attribute with the filename
+    a.target = 'black';
+    
+    // Append the anchor to the body
+    document.body.appendChild(a);
+    
+    // Trigger the click event on the anchor
+    a.click();
+    
+    // Remove the anchor from the body
+    document.body.removeChild(a);
+});
+
+   document.getElementById('pythonBtn').addEventListener('click', function() {
+    // Create an anchor element
+    var a = document.createElement('a');
+    
+    // Set the href attribute to the PDF file path
+    a.href = 'https://postimg.cc/Hc99K2Mx';
+    
+    // Set the download attribute with the filename
+    a.target = 'black';
+    
+    // Append the anchor to the body
+    document.body.appendChild(a);
+    
+    // Trigger the click event on the anchor
+    a.click();
+    
+    // Remove the anchor from the body
+    document.body.removeChild(a);
+});
+
+   document.getElementById('pcbBtn').addEventListener('click', function() {
+    // Create an anchor element
+    var a = document.createElement('a');
+    
+    // Set the href attribute to the PDF file path
+    a.href = 'https://postimg.cc/9zWyNyQ4';
+    
+    // Set the download attribute with the filename
+    a.target = 'black';
+    
+    // Append the anchor to the body
+    document.body.appendChild(a);
+    
+    // Trigger the click event on the anchor
+    a.click();
+    
+    // Remove the anchor from the body
+    document.body.removeChild(a);
+});
   const select = (el, all = false) => {
     el = el.trim()
     if (all) {
